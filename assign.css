@@ -1,0 +1,89 @@
+body {
+    background-color: #FFF;
+    height: 100%;
+    font-family: 'Arial', sans-serif !important;
+    font-weight: 600;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.profileid {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.id {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 40px solid #2B427A;
+    padding: 30px;
+    overflow: hidden;
+    width: 550px;
+    background-color: #FFF;
+    border-radius: 10px 10px 0 0; 
+}
+
+.column {
+    width: 50%;
+}
+
+.img {
+    border: 10px solid #2B427A;
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    font-size: 24px;
+    color: #17E0C7;
+    text-transform: uppercase;
+}
+
+.name span {
+    color: #2B427A;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #2B427A;
+    background-color: transparent;
+    color: #2B427A;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+mark {
+    background-color: #17E0C7 !important;
+    color: #FFF !important;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #2B427A;
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    width: 100%; 
+    border-radius: 0 0 10px 10px; 
+    font-size: 14px;
+}
